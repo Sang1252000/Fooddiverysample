@@ -7,19 +7,19 @@ services:
       - "3000:3000"
     volumes:
       - ./food_delivery_app_ui:/food_delivery_app_ui
-    image: ketakideoskar/client:client
+    image: sangamithra12/client:client
     container_name: react_container
     command: npm start
  
   mssql:
-    image: ketakideoskar/db
+    image: sangamithra12/db
     build: ./food_delivery_app_db
     container_name: db
     ports:
       - "1433:1433"
  
   api:
-    image: ketakideoskar/api
+    image: sangamithra12/api
     build:
       context: ./food_delivery_app_backend
       dockerfile: ./food_delivery_app_api/Dockerfile
