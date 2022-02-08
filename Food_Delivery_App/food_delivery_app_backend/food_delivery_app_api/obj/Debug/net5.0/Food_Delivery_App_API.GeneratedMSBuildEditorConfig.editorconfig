@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = food_delivery_app_api
-build_property.ProjectDir = d:\Food_Delivery_App\food_delivery_app_backend\Food_Delivery_App_API\
+build_property.ProjectDir = d:\Foodivery\Food_Delivery_App\food_delivery_app_backend\Food_Delivery_App_API\
